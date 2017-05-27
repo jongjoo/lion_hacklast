@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 gem 'omniauth-facebook' # Facebook authentication
 gem "koala", "~> 1.10.0rc" # Facebook API
-
+gem 'devise'
 
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
