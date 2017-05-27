@@ -6,4 +6,8 @@ class HomeController < ApplicationController
       redirect_to '/users/sign_in'
     end
   end
+  def login
+    @f_user = User.koala(request.env['omniauth.auth']['credentials'])
+  end
+
 end
